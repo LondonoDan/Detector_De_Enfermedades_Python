@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detector de síntomas</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="tarjeta" id="app" aria-live="polite"></main>
+  <noscript>
+    <p class="aviso-noscript">Esta aplicación necesita JavaScript activado.</p>
+  </noscript>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
